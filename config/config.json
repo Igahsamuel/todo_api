@@ -1,0 +1,21 @@
+{
+  "development": {
+    "username": "${DB_USERNAME}",
+    "password": "${DB_PASSWORD}",
+    "database": "database_development",
+    "host": "${DB_HOST}",
+    "dialect": "${DB_DIALECT}"
+  },
+  "test": {
+    "username": "${DB_USERNAME}",
+    "password": "${DB_PASSWORD}",
+    "database": "${DB_TEST}",
+    "host": "${DB_HOST}",
+    "dialect": "${DB_DIALECT}"
+  },
+  "username": "${DB_USERNAME}",
+  "password": "${DB_PASSWORD}",
+  "database": "${DB_PRODUCTION}",
+  "host": "${DB_HOST}",
+  "dialect": "${DB_DIALECT}"
+}
